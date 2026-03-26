@@ -1,0 +1,8 @@
+Metadata-Version: 2.4
+Name: open-energy-audit-toolkit
+Version: 0.1.0
+Summary: Open-source toolkit for reproducible energy audit workflows
+Author: Abinash Gupta
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: pandas

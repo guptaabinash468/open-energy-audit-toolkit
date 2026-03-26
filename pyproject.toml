@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "open-energy-audit-toolkit"
+version = "0.1.0"
+description = "Open-source toolkit for reproducible energy audit workflows"
+authors = [
+  { name = "Abinash Gupta" }
+]
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "pandas"
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
