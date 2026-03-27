@@ -182,9 +182,10 @@ Planned future additions may include:
 
 ## Version
 
-Current public release:
+Current public releases:
 
 - `v0.1.0` Initial release
+- `v0.2.0` File-based workflow update
 
 ## License
 
